@@ -48,6 +48,7 @@ function deleteNote(index) {
   localStorage.setItem("notes", JSON.stringify(notesObj));
   shownotes();
 }
+// for search button
 let searchtxt = document.getElementById("searchtxt");
 searchtxt.addEventListener("input", function () {
   let val = searchtxt.value.toLowerCase();
